@@ -5,10 +5,10 @@ The goal was to learn the basics of the Database with Rails and build an SQL dat
 
 ## Requirements
 
-You need to run ruby 2.5.1, rails 5.2.0 and bundler installed on your computer.
+You need to run ruby 2.5.1, rails 5.2.1 and bundler installed on your computer.
 
 1. First of all `git clone the repo`
-2. Run `$ cd Doctolib`
+2. Run `$ cd active_record_doctolib2.0`
 3. Run `$ bundle install`
 4. Run `$ rake db:reset` which gonna clean all the cells of our database, and create brand new tables along with our `seeds.rb` file
 5. To play with the database run `$ rails console`
@@ -72,7 +72,6 @@ ActiveRecord::Schema.define(version: 2018_10_25_161433) do
     t.datetime "updated_at", null: false
     t.index ["doctor_id"], name: "index_specialities_on_doctor_id"
   end
-
 end
 ```
 
@@ -87,4 +86,4 @@ This project was build with the help of:
 
 ## Contact
 
-Problems or questions? File an issue at [GitHub](https://github.com/THP-nice/active_record_factory/issues).
+Problems or questions? File an issue at [GitHub](https://github.com/nikitavasilev/active_record_doctolib2.0/issues).
